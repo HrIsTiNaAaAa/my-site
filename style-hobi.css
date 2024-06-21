@@ -1,0 +1,90 @@
+html{
+    background: url("images/tri.jpg");
+    font-family: "Palatino Linotype";
+}
+nav li{
+    background-color: #ffe8a7;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 170px;
+    height: 50px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+}
+a:hover{
+    color: #ffa34f;
+}
+nav li:first-child{
+    margin-left: 370px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#hobi > div p{
+    border: 1px solid #ffc0a4;
+    background-color: #ffc0a4;
+    border-radius: 20px;
+    flex-direction: column;
+    width: 350px;
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+    padding: 17px;
+    font-size: 18px;
+}
+#dogs p{
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+}
+#dogs p:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#dogs img{
+    margin-top: -112px;
+    float: right;
+    height: 140px;
+    width: 110px;
+    padding-right: 800px;
+    clear: right;
+
+}
+#dogs{
+    margin-left: 200px;
+}
+#gym{
+    float: left;
+    padding-left: 500px;
+}
+#gym img{
+    float: right;
+    height: 140px;
+    width: 140px;
+    clear: right;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+#gym p:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#books p:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#books p{
+    width: 400px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 800px;
+}
+#books img{
+    float: right;
+    height: 190px;
+    width: 190px;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+

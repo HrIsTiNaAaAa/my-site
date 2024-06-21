@@ -1,0 +1,68 @@
+html{
+    background: url("images/tri.jpg");
+    background-repeat: no-repeat;
+    }
+nav li{
+    background-color: #ffe8a7;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 170px;
+    height: 50px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+}
+a:hover{
+    color: #ffa34f;
+}
+nav li:first-child{
+    margin-left: 370px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+html{
+    font-family: "Palatino Linotype";
+}
+#par{
+    margin-top: 150px;
+    border-left: black;
+    border-right: black;
+    padding-top: 1px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}
+#par > div{
+    border: 1px solid #ffc0a4;
+    background-color: #ffc0a4;
+    border-radius: 20px;
+    flex-direction: row;
+    width: 350px;
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+    padding: 17px;
+    font-size: 20px;
+}
+#par > div:first-of-type{
+    margin-left: 140px;
+}
+#par img{
+    padding-top: 20px;
+    height: 200px;
+    width: 200px;
+    margin-right: 150px;
+}
+#par img:first-of-type{
+    padding-left: 250px;
+}
+#par img:not(img:nth-of-type(1)){
+    padding-left: 50px;
+}
+#par div:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+

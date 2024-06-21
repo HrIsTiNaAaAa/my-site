@@ -1,0 +1,67 @@
+html{
+    background: url("images/tri.jpg");
+}
+nav li{
+    background-color: #ffe8a7;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 170px;
+    height: 50px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+}
+a:hover{
+    color: #ffa34f;
+}
+nav li:first-child{
+    margin-left: 370px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+html{
+    font-family: "Palatino Linotype";
+}
+#parent{
+    margin-left: 390px;
+    margin-right: 380px;
+    border-left: black;
+    border-right: black;
+    background-color: #ffb5c6;
+}
+#parent > #child{
+    margin-top: 100px;
+    float: left;
+    font-size: 30px;
+    justify-items: center;
+}
+#main{
+    margin-top: 140px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center
+}
+#main p:first-of-type{
+    justify-content: center;
+    font-size: 30px;
+}
+textarea{
+    background-color: #399b97;
+    border-radius: 20px;
+    border: none;
+    width: 290px;
+    font-weight: bold;
+}
+input{
+    background-color: #ffd0a2;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+input:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
